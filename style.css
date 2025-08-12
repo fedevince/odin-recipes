@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 
-li {
+.content li {
     list-style-type: none;
     margin: 40px;
 }
@@ -30,7 +30,7 @@ a:hover{
 }
 
 img {
-    display: block;
+    /* display: block; */
     margin: 20px;
 }
 
@@ -38,4 +38,22 @@ img {
     margin: 50px;
     width: 500px;
     padding: 20px;
+}
+
+.recipe {
+    display: block;
+    /* border: black solid 1px; */
+    margin: 30px;
+}
+
+.back-home {
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.recipe-text {
+    display: inline-block;
+    width: 500px;
+    margin-left: auto;
+    vertical-align: top;
 }
